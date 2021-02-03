@@ -2,8 +2,7 @@
 
 using namespace std;
 
-void towerOfHanoi(int n, int from_rod,
-					int to_rod, int aux_rod) 
+void towerOfHanoi(int n, int from_rod, int to_rod, int aux_rod) 
 { 
 	if (n == 1) 
 	{ 
